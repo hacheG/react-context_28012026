@@ -1,7 +1,7 @@
-export default function Footer({theme}){
+export default function Footer({theme, languaje}){
     return(
         <footer className={theme}>
-            <h4>mi pie de pagina</h4>
+            <h4>{languaje.footerTitle}</h4>
         </footer>
     );
 }
